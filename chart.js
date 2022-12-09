@@ -59,16 +59,16 @@ function buildCharts(sample) {
   d3.json("samples.json").then((data) => {
 
     // 3. Create a variable that holds the samples array. 
-       var barData = data.metadata;
+       var barData = document.getElementById("bar");
   
     // 4. Create a variable that filters the samples for the object with the desired sample number.
    
     var resultBarArray = metadata.filter(sampleObj => sampleObj.id == sample);
     
     //  5. Create a variable that holds the first sample in the array.
+       var resultBar = resultBarArray[0];
    
-    var resultBar = resultBarArray[0];
-    // 6. Create variables that hold the otu_ids, otu_labels, and sample_values.
+       // 6. Create variables that hold the otu_ids, otu_labels, and sample_values.
    var yValue = ['otu_ids'];
 
     var xValue = ['sample_values'];
@@ -122,20 +122,26 @@ function buildCharts(sample) {
   // Use d3.json to load and retrieve the samples.json file 
   d3.json("samples.json").then((data) => {
     
-
     // Deliverable 1 Step 10. Use Plotly to plot the data with the layout. 
-   // Plotly.newPlot(); 
-    Plotly.newPlot('bubble', bubbleData, bubbleLayout);
+    // Create a variable that holds the samples array. 
+       var bubbleData = document.getElementById("bubble");
+      // 4. Create a variable that filters the samples for the object with the desired sample number.
+     //  var resultBubbleArray = metadata.filter(sampleObj => sampleObj.id == sample);
+    
+    //  5. Create a variable that holds the first sample in the array.
+     // var resultBubble = resultBubbleArray[0];
+   
     // 1. Create the trace for the bubble chart.
     var bubbleTrace = {
        x: [1, 500, 1000, 1500, 2000, 2500, 3000, 3500],
       y: [1, 50, 100, 150, 200, 250, 300, 350],
       //x:[sample_values],
       //y: [otu_ids],
-      text: ['A<br>id: 40', 'B<br>size: 60', 'C<br>size: 380', 'D<br>size: 100'],
+      text: ['940<br>id: 40', '941<br>size: 60', '943<br>size: 380', '944<br>size: 100'],
       mode: 'markers',
       marker: {
         size: [40, 60, 380, 100],
+      
         sizemode: 'area'
       }
     };
@@ -154,8 +160,7 @@ function buildCharts(sample) {
     };
 
     // 3. Use Plotly to plot the data with the layout.
-    //Plotly.newPlot();
-    Plotly.newPlot('bubble', bubbleData, bubbleLayout);
+        Plotly.newPlot('bubble', bubbleData, bubbleLayout);
   });
 }
 //---------------------------Deliverable 3: Create a Gauge Chart--------------------------------------------------------------
