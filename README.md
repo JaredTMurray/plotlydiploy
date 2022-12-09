@@ -27,3 +27,4 @@ Upload the following to your GitHub pages repository:
 -	The [samples.json file](https://github.com/JaredTMurray/plotlydiploy/blob/main/samples.json).
 
 ### Summary
+ In summary, all three chart shows the results for the biodiversity of the individuals base on their gender, location age and bbtype. these are filters on the demographic selction on the test subject id number.
