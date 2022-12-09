@@ -59,14 +59,14 @@ function buildCharts(sample) {
   d3.json("samples.json").then((data) => {
 
     // 3. Create a variable that holds the samples array. 
-       var barData = document.getElementById("bar");
+       var barDiv = document.getElementById("bar");
   
     // 4. Create a variable that filters the samples for the object with the desired sample number.
    
     var resultBarArray = metadata.filter(sampleObj => sampleObj.id == sample);
     
     //  5. Create a variable that holds the first sample in the array.
-       var resultBar = resultBarArray[0];
+       var resultBar = data.resultBarArray[0];
    
        // 6. Create variables that hold the otu_ids, otu_labels, and sample_values.
    var yValue = ['otu_ids'];
@@ -123,13 +123,16 @@ function buildCharts(sample) {
   d3.json("samples.json").then((data) => {
     
     // Deliverable 1 Step 10. Use Plotly to plot the data with the layout. 
-    // Create a variable that holds the samples array. 
-       var bubbleData = document.getElementById("bubble");
+      var bubble = document.getElementById("bubble");
+      
+      // Create a variable that holds the samples array. 
+     
+      //var bubbleArray = [];
       // 4. Create a variable that filters the samples for the object with the desired sample number.
-     //  var resultBubbleArray = metadata.filter(sampleObj => sampleObj.id == sample);
+     //var resultBubbleArray = metadata.filter(sampleObj => sampleObj.id == sample);
     
     //  5. Create a variable that holds the first sample in the array.
-     // var resultBubble = resultBubbleArray[0];
+    ///var resultBubble = resultBubbleArray[0];
    
     // 1. Create the trace for the bubble chart.
     var bubbleTrace = {
@@ -140,8 +143,7 @@ function buildCharts(sample) {
       text: ['940<br>id: 40', '941<br>size: 60', '943<br>size: 380', '944<br>size: 100'],
       mode: 'markers',
       marker: {
-        size: [40, 60, 380, 100],
-      
+        size: [40, 60,  380, 100],
         sizemode: 'area'
       }
     };
