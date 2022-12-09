@@ -3,7 +3,7 @@
 ## Submission
 
 ### Overview
-The dashbord viewed in [index.html](https://github.com/JaredTMurray/plotlydiploy/blob/main/index.html) holds the demographic information that visualize the bacterial data infomration from sample.json file. The charts identify the top 10 bacterial species in their belly buttons. Javascript [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) holds the funstion that produces the charts in the following resutls. See [index.html](https://github.com/JaredTMurray/plotlydiploy/blob/main/index.html) to view bar chart
+The dashbord viewed in [index.html](https://github.com/JaredTMurray/plotlydiploy/blob/main/index.html) holds the demographic information that visualize the bacterial data infomration from sample.json file. The charts identify the top 10 bacterial species in their belly buttons. Javascript [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) holds the funstion that produces the charts in the following resutls. See [index.html](https://github.com/JaredTMurray/plotlydiploy/blob/main/index.html) to view bar chart.
 ### Results
 Focuses, the following deliverables:
 
