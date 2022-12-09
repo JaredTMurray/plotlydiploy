@@ -8,6 +8,7 @@ The dashbord viewed in [index.html](#) holds the demographic information that vi
 Focuses, the following deliverables:
 
 -	Deliverable 1: Create a Horizontal Bar Chart
+  From the javascript file [chart.js](#) line 56 to 120  create the horizonial bar chart. Varibale barData holds the sample array vaules from names values.Varibles yValue
 -	Deliverable 2: Create a Bubble Chart
 -	Deliverable 3: Create a Gauge Chart
 -	Deliverable 4: Customize the Dashboard
