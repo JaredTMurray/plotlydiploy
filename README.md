@@ -3,7 +3,7 @@
 ## Submission
 
 ### Overview
-Once you’re ready to submit, make sure to check your work against the rubric to ensure you are meeting the requirements for this Challenge one final time. It’s easy to overlook items when you’re in the zone!
+The dashbord borad was created to hold the demographic information that visualize the bacterial data infomration from sample.json file. The charts  identify the top 10 bacterial species in their belly buttons.
 ### Results
 
 As a reminder, the deliverables for this Challenge are as follows:
