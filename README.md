@@ -3,10 +3,9 @@
 ## Submission
 
 ### Overview
-The dashbord borad was created to hold the demographic information that visualize the bacterial data infomration from sample.json file. The charts  identify the top 10 bacterial species in their belly buttons.
+The dashbord viewed in [index.html](#) holds the demographic information that visualize the bacterial data infomration from sample.json file. The charts identify the top 10 bacterial species in their belly buttons. Javascript [chart.js](#) holds the funstion that produces the charts in the following resutls.
 ### Results
-
-As a reminder, the deliverables for this Challenge are as follows:
+Focuses, the following deliverables:
 
 -	Deliverable 1: Create a Horizontal Bar Chart
 -	Deliverable 2: Create a Bubble Chart
