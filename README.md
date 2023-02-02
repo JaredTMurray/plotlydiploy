@@ -22,6 +22,9 @@ Focuses, the following deliverables:
     Plotly.newPlot("bar", barData, barLayout);
       
       See images below to view bar chart.
+      ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/Del-1.png)
+      
+      ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/Bar.png)
 
 -	Deliverable 2: Create a Bubble Chart
  From the JavaScript file [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) line 117 to 167 create the bubble chart. Varibale bubbleTrace holds the x and y axis values from the [sample json file](https://github.com/JaredTMurray/plotlydiploy/blob/main/samples.json) file. See the dashboard below.
