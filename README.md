@@ -19,18 +19,23 @@ Focuses, the following deliverables:
         t: 100,
         b: 100
       }. To plot the data with the layout. 
-    Plotly.newPlot("bar", barData, barLayout);
-      
-      See images below to view bar chart.
+    Plotly.newPlot("bar", barData, barLayout);   See images below to view bar chart.
+     
       ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/Del-1.png)
       
       ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/Bar.png)
 
 -	Deliverable 2: Create a Bubble Chart
  From the JavaScript file [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) line 117 to 167 create the bubble chart. Varibale bubbleTrace holds the x and y axis values from the [sample json file](https://github.com/JaredTMurray/plotlydiploy/blob/main/samples.json) file. See the dashboard below.
+ 
+![](https://github.com/JaredTMurray/plotlydiploy/blob/main/)
+1[](https://github.com/JaredTMurray/plotlydiploy/blob/main/)
 
 -	Deliverable 3: Create a Gauge Chart
  From the JavaScript file [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) line 168 to 270  create the horizonial gauge chart. Variables data  and layout were used to plot the chart. 
+ 
+![](https://github.com/JaredTMurray/plotlydiploy/blob/main/)
+1[](https://github.com/JaredTMurray/plotlydiploy/blob/main/)
 
 -	Deliverable 4: Customize the Dashboard
  ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/Screenshot_20221209_024056.png)
