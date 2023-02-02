@@ -9,7 +9,18 @@ The  dashboard viewed in [index.html](https://github.com/JaredTMurray/plotlydipl
 Focuses, the following deliverables:
 
 -	Deliverable 1: Create a Horizontal Bar Chart
-  From the javascript file [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js).I created the horizonial bar chart by storing the vaules of X and y from the vaulable OTU labels and . Varibale barData holds the sample array vaules from names values. Varibles y-value, xValue and textlabel holds the vaule for otu_ids, otu_labels, and sample_values that were used to plot the bar chart. I sort the values by n descending order. To create the layout for the bar chart that includes a title. I used . See images below to view bar chart.
+  From the javascript file [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js).I created the horizonial bar chart by storing the vaules of X and y from the vaulable OTU labels and . Varibale barData holds the sample array vaules from names values. Varibles y-value, xValue and textlabel holds the vaule for otu_ids, otu_labels, and sample_values that were used to plot the bar chart. I sort the values by n descending order. To create the layout for the bar chart that includes a title. I used var barLayout = {
+      title: "Top 10 Bacteria Cultures Found",
+      x: xValue,
+      y: yValue,
+      margin: {
+        l: 100,
+        r: 100,
+        t: 100,
+        b: 100
+      }. 
+      
+      See images below to view bar chart.
 
 -	Deliverable 2: Create a Bubble Chart
  From the JavaScript file [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) line 117 to 167 create the bubble chart. Varibale bubbleTrace holds the x and y axis values from the [sample json file](https://github.com/JaredTMurray/plotlydiploy/blob/main/samples.json) file. See the dashboard below.
