@@ -3,7 +3,12 @@
 ## Submission
 
 ### Overview
-The  dashboard viewed in [index.html](https://github.com/JaredTMurray/plotlydiploy/blob/main/index.html) holds the demographic information that visualize the bacterial data infomration from sample.json file. The charts identify the top 10 bacterial species in their belly buttons. JavaScript [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) holds the function that produces the charts in the following results. 
+Demographic information were used to visualize the bacterial data for each volunteer.I then used this data to create the following deliveables
+- Deliverable 1: Create a Horizontal Bar Chart
+- Deliverable 2: Create a Bubble Chart
+- Deliverable 3: Create a Gauge Chart
+- Deliverable 4: Customize the Dashboard
+ JavaScript [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) holds the function that produces the charts in the following results. 
 
 ### Results
 Focuses, the following deliverables:
