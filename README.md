@@ -42,7 +42,7 @@ Focuses, the following deliverables:
     var bubbleData = [bubbleTrace];
   See Images below 
 ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/del2.png)
-1[](https://github.com/JaredTMurray/plotlydiploy/blob/main/bubble.png)
+![](https://github.com/JaredTMurray/plotlydiploy/blob/main/bubble.png)
 
 -	Deliverable 3: Create a Gauge Chart
  From the JavaScript file [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) line 168 to 270  create the horizonial gauge chart. Variables data  and layout were used to plot the chart. 
