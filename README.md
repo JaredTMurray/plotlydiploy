@@ -26,10 +26,23 @@ Focuses, the following deliverables:
       ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/Bar.png)
 
 -	Deliverable 2: Create a Bubble Chart
- From the JavaScript file [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) line 117 to 167 create the bubble chart. Varibale bubbleTrace holds the x and y axis values from the [sample json file](https://github.com/JaredTMurray/plotlydiploy/blob/main/samples.json) file. See the dashboard below.
- 
-![](https://github.com/JaredTMurray/plotlydiploy/blob/main/)
-1[](https://github.com/JaredTMurray/plotlydiploy/blob/main/)
+ From the JavaScript file [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) line 117 to 167 create the bubble chart. Varibale bubbleTrace was used to plot the data with the layout.  and stored in var bubble = document.getElementById("bubble"). To create a variable that holds the samples array, I used  
+      var bubbleArray = []. To create a variable that filters the samples for the object with the desired sample number, I used var resultBubbleArray = metadata.filter(sampleObj => sampleObj.id == sample) and finally, to holds the first sample in the array.
+    var resultBubble = resultBubbleArray[0];
+   
+    // 1. Create the trace for the bubble chart.
+    var bubbleTrace = {
+       x:[sample_values],
+      y: [otu_ids],
+      text: ['940<br>id: 40', '941<br>size: 60', '943<br>size: 380', '944<br>size: 100'],
+      mode: 'markers',
+      marker: {
+        size: [40, 60,  380, 100],
+        sizemode: 'area'}};
+    var bubbleData = [bubbleTrace];
+  See Images below 
+![](https://github.com/JaredTMurray/plotlydiploy/blob/main/del2.png)
+1[](https://github.com/JaredTMurray/plotlydiploy/blob/main/bubble.png)
 
 -	Deliverable 3: Create a Gauge Chart
  From the JavaScript file [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) line 168 to 270  create the horizonial gauge chart. Variables data  and layout were used to plot the chart. 
