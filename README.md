@@ -14,17 +14,10 @@ Focuses, the following deliverables:
 ###	Deliverable 1: Create a Horizontal Bar Chart 
   From the javascript file [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js).I created the horizonial bar chart by storing the vaules of X and y from the vaulable OTU labels and . Varibale barData holds the sample array vaules from names values. Varibles y-value, xValue and textlabel holds the vaule for otu_ids, otu_labels, and sample_values that were used to plot the bar chart. I sort the values by n descending order. To create the layout for the bar chart that includes a title. I used var barLayout = {
       title: "Top 10 Bacteria Cultures Found",
-      x: xValue,
-      y: yValue,
-      margin: {
-        l: 100,
-        r: 100,
-        t: 100,
-        b: 100
-      }. To plot the data with the layout. 
+      x: xValue, y: yValue, margin: { l: 100, r: 100, t: 100, b: 100}. To plot the data with the layout, I used  
     Plotly.newPlot("bar", barData, barLayout);   See images below to view bar chart.
-     
-     ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/Del-1.png)
+    
+![](https://github.com/JaredTMurray/plotlydiploy/blob/main/Del-1.png)
       
     ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/Bar.png)
 
