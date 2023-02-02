@@ -51,7 +51,7 @@ Focuses, the following deliverables:
 
 Related Files:
 -	The [charts.js file](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js)
--	The [charts.js file](https://github.com/JaredTMurray/plotlydiploy/blob/main/data.js)
+-	The [data.js file](https://github.com/JaredTMurray/plotlydiploy/blob/main/data.js)
 -	The [index.html file](https://github.com/JaredTMurray/plotlydiploy/blob/main/index.html).
 -	The [charts.js file](https://github.com/JaredTMurray/plotlydiploy/blob/main/BellyButton_gauge_starter_code.js)
 -	The [samples.json file](https://github.com/JaredTMurray/plotlydiploy/blob/main/samples.json).
