@@ -1,8 +1,6 @@
 # plotlydiploy
 
-## Submission
-
-### Overview
+## Overview
 Demographic information were used to visualize the bacterial data for each volunteer.I then used this data to create the following deliveables
 - Deliverable 1: Create a Horizontal Bar Chart
 - Deliverable 2: Create a Bubble Chart
@@ -10,7 +8,7 @@ Demographic information were used to visualize the bacterial data for each volun
 - Deliverable 4: Customize the Dashboard
  JavaScript [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) holds the function that produces the charts in the following results. 
 
-### Results
+## Results
 Focuses, the following deliverables:
 
 -	Deliverable 1: Create a Horizontal Bar Chart
@@ -41,12 +39,13 @@ Focuses, the following deliverables:
 ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/bubble.png)
 
 -	Deliverable 3: Create a Gauge Chart
- From the JavaScript file [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) line 168 to 270  create the horizonial gauge chart. Variables data  and layout were used to plot the chart. 
+ From the JavaScript file [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) , I   created the horizonial gauge chart. Variables data  and layout were used the variable to data  data = {type: "indicator", mode: "gauge+number+delta",value: 2,title. I  pass some vaule to assign vaule to the varable .See image below
  
-![](https://github.com/JaredTMurray/plotlydiploy/blob/main/)
-1[](https://github.com/JaredTMurray/plotlydiploy/blob/main/)
+![](https://github.com/JaredTMurray/plotlydiploy/blob/main/del3.png)
+1[](https://github.com/JaredTMurray/plotlydiploy/blob/main/button.png)
 
 -	Deliverable 4: Customize the Dashboard
+
  ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/dashboard.png)
 
 Upload the following to your GitHub pages repository:
@@ -55,5 +54,5 @@ Upload the following to your GitHub pages repository:
 -	The [charts.js file](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js)
 -	The [samples.json file](https://github.com/JaredTMurray/plotlydiploy/blob/main/samples.json).
 
-### Summary
+## Summary
 In summary, all three chart shows the results for the biodiversity of the individuals base on their gender, location age and bbtype. these are filters on the demographic selection on the test subject id number.
