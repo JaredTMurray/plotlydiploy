@@ -18,7 +18,8 @@ Focuses, the following deliverables:
         r: 100,
         t: 100,
         b: 100
-      }. 
+      }. To plot the data with the layout. 
+    Plotly.newPlot("bar", barData, barLayout);
       
       See images below to view bar chart.
 
