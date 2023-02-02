@@ -51,7 +51,7 @@ Focuses, the following deliverables:
 1[](https://github.com/JaredTMurray/plotlydiploy/blob/main/)
 
 -	Deliverable 4: Customize the Dashboard
- ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/Screenshot_20221209_024056.png)
+ ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/dashboard.png)
 
 Upload the following to your GitHub pages repository:
 
