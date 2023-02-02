@@ -50,10 +50,11 @@ Focuses, the following deliverables:
 
 
 Related Files:
-
--	The [index.html file](https://github.com/JaredTMurray/plotlydiploy/blob/main/index.html).
 -	The [charts.js file](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js)
+-	The [charts.js file](https://github.com/JaredTMurray/plotlydiploy/blob/main/data.js)
+-	The [index.html file](https://github.com/JaredTMurray/plotlydiploy/blob/main/index.html).
+-	The [charts.js file](https://github.com/JaredTMurray/plotlydiploy/blob/main/BellyButton_gauge_starter_code.js)
 -	The [samples.json file](https://github.com/JaredTMurray/plotlydiploy/blob/main/samples.json).
 
 ## Summary
-In summary, all three chart shows the results for the biodiversity of the individuals base on their gender, location age and bbtype. these are filters on the demographic selection on the test subject id number.
+In summary, all three chart shows the results for the biodiversity of the individuals base on their gender, location age and bbtype. these are filters on the demographic selection on the test subject id number. For the OTU ID and female ahave the higheast volume of with ETHNICITY: Caucasian,GENDER: F, AGE: 24, LOCATION: Beaufort/NC, BBTYPE: I, WFREQ: 2
