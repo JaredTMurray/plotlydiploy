@@ -42,13 +42,14 @@ Focuses, the following deliverables:
  From the JavaScript file [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) , I   created the horizonial gauge chart. Variables data  and layout were used the variable to data  data = {type: "indicator", mode: "gauge+number+delta",value: 2,title. I  pass some vaule to assign vaule to the varable .See image below
  
 ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/del3.png)
-1[](https://github.com/JaredTMurray/plotlydiploy/blob/main/button.png)
+![](https://github.com/JaredTMurray/plotlydiploy/blob/main/button.png)
 
 -	Deliverable 4: Customize the Dashboard
 
  ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/dashboard.png)
 
-Upload the following to your GitHub pages repository:
+
+Related Files:
 
 -	The [index.html file](https://github.com/JaredTMurray/plotlydiploy/blob/main/index.html).
 -	The [charts.js file](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js)
