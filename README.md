@@ -11,7 +11,7 @@ Demographic information were used to visualize the bacterial data for each volun
 ## Results
 Focuses, the following deliverables:
 
--	Deliverable 1: Create a Horizontal Bar Chart
+###	Deliverable 1: Create a Horizontal Bar Chart 
   From the javascript file [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js).I created the horizonial bar chart by storing the vaules of X and y from the vaulable OTU labels and . Varibale barData holds the sample array vaules from names values. Varibles y-value, xValue and textlabel holds the vaule for otu_ids, otu_labels, and sample_values that were used to plot the bar chart. I sort the values by n descending order. To create the layout for the bar chart that includes a title. I used var barLayout = {
       title: "Top 10 Bacteria Cultures Found",
       x: xValue,
@@ -28,7 +28,7 @@ Focuses, the following deliverables:
       
       ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/Bar.png)
 
--	Deliverable 2: Create a Bubble Chart
+### Deliverable 2: Create a Bubble Chart
  From the JavaScript file [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) line 117 to 167 create the bubble chart. Varibale bubbleTrace was used to plot the data with the layout.  and stored in var bubble = document.getElementById("bubble"). To create a variable that holds the samples array, I used  
       var bubbleArray = []. To create a variable that filters the samples for the object with the desired sample number, I used var resultBubbleArray = metadata.filter(sampleObj => sampleObj.id == sample) and finally, to holds the first sample in the array.
     var resultBubble = resultBubbleArray[0], To create the trace for the bubble chart, I used the varable  var bubbleTrace = { x:[sample_values], y: [otu_ids],
@@ -38,13 +38,13 @@ Focuses, the following deliverables:
 ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/del2.png)
 ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/bubble.png)
 
--	Deliverable 3: Create a Gauge Chart
+###	Deliverable 3: Create a Gauge Chart
  From the JavaScript file [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) , I   created the horizonial gauge chart. Variables data  and layout were used the variable to data  data = {type: "indicator", mode: "gauge+number+delta",value: 2,title. I  pass some vaule to assign vaule to the varable .See image below
  
 ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/del3.png)
 ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/button.png)
 
--	Deliverable 4: Customize the Dashboard
+###	Deliverable 4: Customize the Dashboard
 
  ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/dashboard.png)
 
