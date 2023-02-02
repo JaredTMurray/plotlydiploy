@@ -35,6 +35,7 @@ Focuses, the following deliverables:
       text: ['940<br>id: 40', '941<br>size: 60', '943<br>size: 380', '944<br>size: 100'], mode: 'markers',  marker: { size: [40, 60,  380, 100], sizemode: 'area'}};
     var bubbleData = [bubbleTrace];
   See Images below 
+  
 ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/del2.png)
 ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/bubble.png)
 
