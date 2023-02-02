@@ -19,7 +19,7 @@ Focuses, the following deliverables:
     
 ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/Del-1.png)
       
-    ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/Bar.png)
+![](https://github.com/JaredTMurray/plotlydiploy/blob/main/Bar.png)
 
 ### Deliverable 2: Create a Bubble Chart
  From the JavaScript file [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) line 117 to 167 create the bubble chart. Varibale bubbleTrace was used to plot the data with the layout.  and stored in var bubble = document.getElementById("bubble"). To create a variable that holds the samples array, I used  
