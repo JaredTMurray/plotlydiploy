@@ -127,19 +127,17 @@ function buildCharts(sample) {
       
       // Create a variable that holds the samples array. 
      
-      //var bubbleArray = [];
+      var bubbleArray = [];
       // 4. Create a variable that filters the samples for the object with the desired sample number.
-     //var resultBubbleArray = metadata.filter(sampleObj => sampleObj.id == sample);
+     var resultBubbleArray = metadata.filter(sampleObj => sampleObj.id == sample);
     
     //  5. Create a variable that holds the first sample in the array.
-    ///var resultBubble = resultBubbleArray[0];
+    var resultBubble = resultBubbleArray[0];
    
     // 1. Create the trace for the bubble chart.
     var bubbleTrace = {
-       x: [1, 500, 1000, 1500, 2000, 2500, 3000, 3500],
-      y: [1, 50, 100, 150, 200, 250, 300, 350],
-      //x:[sample_values],
-      //y: [otu_ids],
+       x:[sample_values],
+      y: [otu_ids],
       text: ['940<br>id: 40', '941<br>size: 60', '943<br>size: 380', '944<br>size: 100'],
       mode: 'markers',
       marker: {
@@ -147,9 +145,8 @@ function buildCharts(sample) {
         sizemode: 'area'
       }
     };
-
     var bubbleData = [bubbleTrace
-   
+ 
     ];
 
     // 2. Create the layout for the bubble chart.
