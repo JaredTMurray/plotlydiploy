@@ -40,8 +40,8 @@ View the JavaScript file [chart.js](https://github.com/JaredTMurray/plotlydiploy
 
 ###	Deliverable 4: Customize the Dashboard
 
- ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/dashboard.png)
-
+![](https://github.com/JaredTMurray/plotlydiploy/blob/main/Bar%20chart%20and%20Gauge%20chart.png)
+![](https://github.com/JaredTMurray/plotlydiploy/blob/main/Bubble%20Chart.png)
 
 Related Files:
 -	The [charts.js file](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js)
