@@ -33,9 +33,9 @@ View the JavaScript file [chart.js](https://github.com/JaredTMurray/plotlydiploy
 ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/Bubble%20Chart.png)
 
 ###	Deliverable 3: Create a Gauge Chart
- From the JavaScript file [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) , I  created the horizonial gauge chart. For the layout, I used the variable data,  data = {type: "indicator", mode: "gauge+number+delta",value: 2,title. I then passed and assigned the value to the variable. See image below
+ From the JavaScript file [chart.js](https://github.com/JaredTMurray/plotlydiploy/blob/main/chart.js) , I  created the horizonial gauge chart. For the layout, I used the variable data,  Gaugedata = {type: "indicator", mode: "gauge+number+delta",value: result.wfreq, title: "Belly Button Washing Fequency". I then passed and assigned the value to the variable. See image below
  
-![](https://github.com/JaredTMurray/plotlydiploy/blob/main/del3.png)
+![](https://github.com/JaredTMurray/plotlydiploy/blob/main/Deliverable3.png)
 ![](https://github.com/JaredTMurray/plotlydiploy/blob/main/button.png)
 
 ###	Deliverable 4: Customize the Dashboard
