@@ -57,38 +57,41 @@ function buildMetadata(sample) {
 function buildCharts(sample) {
   // 2. Use d3.json to load and retrieve the samples.json file 
   d3.json("samples.json").then((data) => {
-
+    var samples = data.samples;
+    console.log(samples)
     // 3. Create a variable that holds the samples array. 
-       var barDiv = document.getElementById("bar");
+    
+     //  var barDiv = document.getElementById("bar");
   
     // 4. Create a variable that filters the samples for the object with the desired sample number.
    
-    var resultBarArray = metadata.filter(sampleObj => sampleObj.id == sample);
+    var resultBarArray = samples.filter(sampleObj => sampleObj.id == sample);
     
     //  5. Create a variable that holds the first sample in the array.
-       var resultBar = data.resultBarArray[0];
+       var resultBar = resultBarArray[0];
+       console.log(resultBar)
    
        // 6. Create variables that hold the otu_ids, otu_labels, and sample_values.
-   var yValue = ['otu_ids'];
+   var otu_ids = resultBar.otu_ids;
 
-    var xValue = ['sample_values'];
+    var sample_values = resultBar.sample_values;
 
-    var textlabel = ['otu_lables'];
+    var otu_labels = resultBar.otu_labels;
+
     // 7. Create the yticks for the bar chart.
     // Hint: Get the the top 10 otu_ids and map them in descending order  
     //  so the otu_ids with the most bacteria are last. 
 
     var yticks = {
-      x: data.map(row => row.yValue),
-      y: data.map(row => row.xValue),
-      text: data.map(row => row.textlabel),
+      x: otu_ids,
+      y: sample_values,
+      text: otu_labels,
        type: "bar",
       marker: {
         color: 'rgba(55,128,191,0.6)',
         width: 1
       },
       orientation: "h",
-      type: 'sort',
       target: 'x',
       order: 'ascending'
     };
@@ -111,17 +114,9 @@ function buildCharts(sample) {
     };
     // 10. Use Plotly to plot the data with the layout. 
     Plotly.newPlot("bar", barData, barLayout);
-  });
-}
 
 //---------------------Deliverable 2: Create a Bubble Chart -------------------------------------------
-
-// Bubble charts
-// Create the buildCharts function.
-function buildCharts(sample) {
-  // Use d3.json to load and retrieve the samples.json file 
-  d3.json("samples.json").then((data) => {
-    
+    var metadata = data.metadata;  
     // Deliverable 1 Step 10. Use Plotly to plot the data with the layout. 
       var bubble = document.getElementById("bubble");
       
@@ -160,10 +155,9 @@ function buildCharts(sample) {
 
     // 3. Use Plotly to plot the data with the layout.
         Plotly.newPlot('bubble', bubbleData, bubbleLayout);
-  });
-}
-//---------------------------Deliverable 3: Create a Gauge Chart--------------------------------------------------------------
 
+//---------------------------Deliverable 3: Create a Gauge Chart--------------------------------------------------------------
+        var metadata = data.metadata;
 var data = [
   {
     type: "indicator",
@@ -202,3 +196,9 @@ var layout = {
 };
 
 Plotly.newPlot('gauge', data, layout);
+  });
+}
+
+
+
+
